@@ -11,7 +11,7 @@
         android:id="@+id/mViewPagers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="5"/>
+        android:layout_weight="10"/>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab"
@@ -19,7 +19,7 @@
         android:layout_height="60dp"
         android:layout_weight="1"
         app:tabMode = "fixed"
-        app:tabGravity="center"
+        app:tabGravity="fill"
         android:background="@drawable/bottom_navigation"/>
 
 </LinearLayout>
